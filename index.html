@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JS Event Fun </h1>
+
+  <!-- 1. Events -->
+  <button id="clickBtn">Click Me</button>
+  <div id="hoverBox">Hover over me!</div>
+  <p>Key Pressed: <span id="keyPressed">None</span></p>
+  <button id="secretBtn">Double-Click Me</button>
+
+  <!-- 2. Interactive UI -->
+  <button id="colorToggle">Change My Text & Color</button>
+
+  <div class="gallery">
+    <img id="galleryImage" src="img1.jpg" alt="Gallery Image">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-target="content1">Tab 1</button>
+    <button class="tab" data-target="content2">Tab 2</button>
+    <div id="content1" class="tab-content">Content 1</div>
+    <div id="content2" class="tab-content hidden">Content 2</div>
+  </div>
+
+  <!-- 3. Form -->
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMessage"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
